@@ -1,6 +1,11 @@
 package com.coinbase.exchange.api.exchange;
 
-import com.google.gson.Gson;
+import static org.springframework.http.HttpMethod.GET;
+
+import java.time.Instant;
+import java.util.Arrays;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,11 +18,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import java.time.Instant;
-import java.util.Arrays;
-import java.util.List;
-
-import static org.springframework.http.HttpMethod.GET;
+import com.google.gson.Gson;
 
 
 /**
@@ -26,15 +27,15 @@ import static org.springframework.http.HttpMethod.GET;
 @Component
 public class GdaxExchangeImpl implements GdaxExchange {
 
-    static Logger log = Logger.getLogger(GdaxExchangeImpl.class.getName());
+	private static Logger log = Logger.getLogger(GdaxExchangeImpl.class.getName());
 
-    String publicKey;
-    String passphrase;
-    String baseUrl;
+    private String publicKey;
+    private String passphrase;
+    private String baseUrl;
 
-    Signature signature;
+    private Signature signature;
 
-    RestTemplate restTemplate;
+    private RestTemplate restTemplate;
 
     @Autowired
     public GdaxExchangeImpl(@Value("${gdax.key}") String publicKey,

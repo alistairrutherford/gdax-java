@@ -1,7 +1,5 @@
 package com.coinbase.exchange.api.accounts;
 
-import com.coinbase.exchange.api.entity.Hold;
-
 import java.math.BigDecimal;
 
 /**
@@ -15,11 +13,7 @@ public class Account {
     private BigDecimal hold;
     private String profile_id;
 
-    public Account() {
-        this.balance = BigDecimal.ZERO;
-        this.available = BigDecimal.ZERO;
-        this.hold = BigDecimal.ZERO;
-    }
+    public Account() {}
 
     public Account(String id,
                    String currency,

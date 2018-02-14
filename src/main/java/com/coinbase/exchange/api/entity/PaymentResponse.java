@@ -7,10 +7,10 @@ import java.math.BigDecimal;
  */
 public class PaymentResponse {
 
-    String id;
-    BigDecimal amount;
-    String currency;
-    String payout_at;
+	private String id;
+	private BigDecimal amount;
+	private String currency;
+	private String payout_at;
 
     public PaymentResponse() {}
 

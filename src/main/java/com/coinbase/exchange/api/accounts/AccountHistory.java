@@ -1,8 +1,8 @@
 package com.coinbase.exchange.api.accounts;
 
-import com.coinbase.exchange.api.entity.Detail;
-
 import java.math.BigDecimal;
+
+import com.coinbase.exchange.api.entity.Detail;
 
 /**
  * Created by irufus on 2/18/15.

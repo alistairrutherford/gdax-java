@@ -4,20 +4,20 @@ package com.coinbase.exchange.api.orders;
  * Created by robevansuk on 03/02/2017.
  */
 public class Order {
-    String id;
-    String size;
-    String price;
-    String product_id;
-    String side;
-    String stp;
-    String type;
-    String time_in_force;
-    String post_only;
-    String created_at;
-    String fill_fees;
-    String filled_size;
-    String executed_value;
-    String status;
+	private String id;
+	private String size;
+	private String price;
+	private String product_id;
+	private String side;
+	private String stp;
+	private String type;
+	private String time_in_force;
+	private String post_only;
+	private String created_at;
+	private String fill_fees;
+	private String filled_size;
+	private String executed_value;
+	private String status;
 
     public Order() {}
 

@@ -5,14 +5,14 @@ package com.coinbase.exchange.api.payments;
  */
 public class DepositInformation {
 
-    String account_number;
-    String routing_number;
-    String bank_name;
-    String bank_address;
-    BankCountry bank_country;
-    String account_name;
-    String account_address;
-    String reference;
+	private String account_number;
+	private String routing_number;
+	private String bank_name;
+	private String bank_address;
+	private BankCountry bank_country;
+	private String account_name;
+	private String account_address;
+	private String reference;
 
     public DepositInformation() {}
 

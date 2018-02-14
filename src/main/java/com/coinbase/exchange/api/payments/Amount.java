@@ -7,8 +7,8 @@ import java.math.BigDecimal;
  */
 public class Amount {
 
-    BigDecimal amount;
-    String currency;
+	private BigDecimal amount;
+	private String currency;
 
     public Amount() {}
 

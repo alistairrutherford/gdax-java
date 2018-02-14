@@ -5,14 +5,14 @@ package com.coinbase.exchange.api.websocketfeed.message;
  */
 public class Subscribe {
 
-    String type;
-    String[] product_ids;
+    private String type;
+    private String[] product_ids;
 
     // Used for signing the subscribe message to the Websocket feed
-    String signature;
-    String passphrase;
-    String timestamp;
-    String apiKey;
+    private String signature;
+    private String passphrase;
+    private String timestamp;
+    private String apiKey;
 
     public Subscribe() { }
 
@@ -56,5 +56,25 @@ public class Subscribe {
         this.apiKey = apiKey;
         return this;
     }
+
+	public String getApiKey() {
+		return apiKey;
+	}
+
+	public void setApiKey(String apiKey) {
+		this.apiKey = apiKey;
+	}
+
+	public String getSignature() {
+		return signature;
+	}
+
+	public String getPassphrase() {
+		return passphrase;
+	}
+
+	public String getTimestamp() {
+		return timestamp;
+	}
 
 }

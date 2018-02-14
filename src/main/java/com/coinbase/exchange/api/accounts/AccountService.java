@@ -1,16 +1,13 @@
 package com.coinbase.exchange.api.accounts;
 
-import com.coinbase.exchange.api.entity.Hold;
-import com.coinbase.exchange.api.exchange.GdaxExchange;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.toList;
+import com.coinbase.exchange.api.entity.Hold;
+import com.coinbase.exchange.api.exchange.GdaxExchange;
 
 /**
  * Created by robevansuk on 25/01/2017.
@@ -19,7 +16,7 @@ import static java.util.stream.Collectors.toList;
 public class AccountService {
 
     @Autowired
-    GdaxExchange exchange;
+    private GdaxExchange exchange;
 
     public static final String ACCOUNTS_ENDPOINT = "/accounts";
 

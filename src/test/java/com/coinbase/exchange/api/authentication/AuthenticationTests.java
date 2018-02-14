@@ -1,14 +1,15 @@
 package com.coinbase.exchange.api.authentication;
 
-import com.coinbase.exchange.api.BaseTest;
-import com.coinbase.exchange.api.accounts.Account;
-import com.coinbase.exchange.api.accounts.AccountService;
-import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import static junit.framework.TestCase.assertTrue;
 
 import java.util.List;
 
-import static junit.framework.TestCase.assertTrue;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.coinbase.exchange.api.BaseTest;
+import com.coinbase.exchange.api.accounts.Account;
+import com.coinbase.exchange.api.accounts.AccountService;
 
 /**
  * Created by irufus (sakamura@gmail.com)

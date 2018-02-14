@@ -1,25 +1,31 @@
 package com.coinbase.exchange.api.gui.custom;
 
-import com.coinbase.exchange.api.marketdata.OrderItem;
-import com.coinbase.exchange.api.websocketfeed.message.OrderBookMessage;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static java.util.stream.Collectors.toList;
+
+import java.math.BigDecimal;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 import javax.swing.event.EventListenerList;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
-import java.math.BigDecimal;
-import java.util.*;
 
-import static java.util.stream.Collectors.toList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.coinbase.exchange.api.marketdata.OrderItem;
+import com.coinbase.exchange.api.websocketfeed.message.OrderBookMessage;
 
 
 public class OrderBookModel implements TableModel, TableModelListener {
 
-    static final Logger log = LoggerFactory.getLogger(OrderBookModel.class);
-    static final int PRICE_DECIMAL_PLACES = 5;
-    static final int SIZE_DECIMAL_PLACES = 8;
+	private static final Logger log = LoggerFactory.getLogger(OrderBookModel.class);
+	private static final int PRICE_DECIMAL_PLACES = 5;
+	private static final int SIZE_DECIMAL_PLACES = 8;
 
     public Vector<Vector> data;
 

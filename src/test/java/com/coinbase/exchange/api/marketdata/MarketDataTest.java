@@ -1,12 +1,11 @@
-package com.coinbase.exchange.api.MarketData;
+package com.coinbase.exchange.api.marketdata;
 
-import com.coinbase.exchange.api.BaseTest;
-import com.coinbase.exchange.api.marketdata.MarketData;
-import com.coinbase.exchange.api.marketdata.MarketDataService;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import static org.junit.Assert.assertTrue;
+import com.coinbase.exchange.api.BaseTest;
 
 /**
  * Created by robevansuk on 14/02/2017.

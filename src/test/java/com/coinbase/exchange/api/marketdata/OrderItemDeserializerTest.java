@@ -1,11 +1,11 @@
-package com.coinbase.exchange.api.MarketData;
+package com.coinbase.exchange.api.marketdata;
 
-import com.coinbase.exchange.api.marketdata.MarketData;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.IOException;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.IOException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Created by ren7881 on 20/03/2017.

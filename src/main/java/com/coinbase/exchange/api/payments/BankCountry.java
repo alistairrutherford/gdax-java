@@ -5,8 +5,8 @@ package com.coinbase.exchange.api.payments;
  */
 public class BankCountry {
 
-    String code;
-    String name;
+	private String code;
+	private String name;
 
     public BankCountry() {}
 

@@ -7,13 +7,13 @@ import java.math.BigDecimal;
  * Updated by robevansuk on 17/2/17
  */
 public class Hold {
-    String id;
-    String account_id;
-    String created_at;
-    String update_at;
-    BigDecimal amount;
-    String type;
-    String ref;
+	private String id;
+	private String account_id;
+	private String created_at;
+	private String update_at;
+	private BigDecimal amount;
+	private String type;
+	private String ref;
 
     public Hold () {}
 

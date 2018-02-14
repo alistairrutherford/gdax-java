@@ -5,8 +5,8 @@ package com.coinbase.exchange.api.reports;
  */
 public class TimePeriod {
 
-    String start_date;
-    String end_date;
+	private String start_date;
+	private String end_date;
 
     public TimePeriod() {}
 

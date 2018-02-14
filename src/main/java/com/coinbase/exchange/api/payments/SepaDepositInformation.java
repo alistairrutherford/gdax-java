@@ -5,14 +5,14 @@ package com.coinbase.exchange.api.payments;
  */
 public class SepaDepositInformation {
 
-    String iban;
-    String swift;
-    String bank_name;
-    String bank_address;
-    String bank_country_name;
-    String account_name;
-    String account_address;
-    String reference;
+    private String iban;
+    private String swift;
+    private String bank_name;
+    private String bank_address;
+    private String bank_country_name;
+    private String account_name;
+    private String account_address;
+    private String reference;
 
     public SepaDepositInformation() {}
 

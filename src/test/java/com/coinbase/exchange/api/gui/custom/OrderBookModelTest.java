@@ -1,13 +1,14 @@
 package com.coinbase.exchange.api.gui.custom;
 
-import com.coinbase.exchange.api.websocketfeed.message.OrderBookMessage;
-import org.junit.Before;
-import org.junit.Test;
+import static org.hamcrest.core.IsEqual.equalTo;
+import static org.junit.Assert.assertThat;
 
 import java.math.BigDecimal;
 
-import static org.hamcrest.core.IsEqual.equalTo;
-import static org.junit.Assert.assertThat;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.coinbase.exchange.api.websocketfeed.message.OrderBookMessage;
 
 /**
  * Created by robevansuk on 31/03/2017.

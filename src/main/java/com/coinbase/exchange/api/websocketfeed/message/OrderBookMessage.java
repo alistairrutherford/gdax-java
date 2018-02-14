@@ -8,39 +8,39 @@ import java.math.BigDecimal;
  * Created by robevansuk on 15/03/2017.
  */
 public class OrderBookMessage implements Comparable {
-    String type;
-    String time;
-    String product_id;
-    String trade_id;
-    Long sequence;
-    String side;
-    String order_id;
-    String order_type;
+    private String type;
+    private String time;
+    private String product_id;
+    private String trade_id;
+    private Long sequence;
+    private String side;
+    private String order_id;
+    private String order_type;
 
-    BigDecimal funds;
+    private BigDecimal funds;
 
-    BigDecimal size;
-    BigDecimal price;
+    private BigDecimal size;
+    private BigDecimal price;
 
-    BigDecimal new_size;
-    BigDecimal old_size;
-    BigDecimal new_funds;
-    BigDecimal old_funds;
+    private BigDecimal new_size;
+    private BigDecimal old_size;
+    private BigDecimal new_funds;
+    private BigDecimal old_funds;
 
-    String reason;
-    BigDecimal remaining_size;
+    private String reason;
+    private BigDecimal remaining_size;
 
-    String maker_order_id;
-    String taker_order_id;
-    String taker_user_id;
-    String user_id;
-    String taker_profile_id;
-    String profile_id;
+    private String maker_order_id;
+    private String taker_order_id;
+    private String taker_user_id;
+    private String user_id;
+    private String taker_profile_id;
+    private String profile_id;
 
-    String last_trade_id;
+    private String last_trade_id;
 
-    String client_oid;
-    String stp;
+    private String client_oid;
+    private String stp;
 
     public OrderBookMessage() { }
 

@@ -5,14 +5,14 @@ package com.coinbase.exchange.api.reports;
  */
 public class ReportResponse {
 
-    String id;
-    String type;
-    String status;
-    String created_at;
-    String completed_at;
-    String expires_at;
-    String file_url;
-    TimePeriod params;
+	private String id;
+	private String type;
+	private String status;
+	private String created_at;
+	private String completed_at;
+	private String expires_at;
+	private String file_url;
+	private TimePeriod params;
 
     public ReportResponse() {}
 
