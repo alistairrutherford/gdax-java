@@ -15,7 +15,7 @@ package com.coinbase.exchange.api.websocketfeed.message;
  */
 public class HeartBeat extends OrderBookMessage {
 
-    String last_trade_id;
+    public String last_trade_id;
 
 
 }

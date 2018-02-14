@@ -5,9 +5,9 @@ package com.coinbase.exchange.api.payments;
  */
 public class AccountLimit {
 
-    Integer period_in_days;
-    Amount total;
-    Amount remaining;
+	private Integer period_in_days;
+	private Amount total;
+	private Amount remaining;
 
     public AccountLimit() {}
 

@@ -5,9 +5,9 @@ package com.coinbase.exchange.api.reports;
  */
 public class ReportRequest {
 
-    String type;
-    String start_date;
-    String end_date;
+	private String type;
+	private String start_date;
+	private String end_date;
 
     public ReportRequest() {}
 

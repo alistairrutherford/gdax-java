@@ -7,10 +7,10 @@ import java.math.BigDecimal;
  */
 public class UserAccountData {
 
-    String product_id;
-    BigDecimal exchange_volume;
-    BigDecimal volume;
-    String recorded_at;
+	private String product_id;
+	private BigDecimal exchange_volume;
+	private BigDecimal volume;
+	private String recorded_at;
 
     public UserAccountData() {}
 

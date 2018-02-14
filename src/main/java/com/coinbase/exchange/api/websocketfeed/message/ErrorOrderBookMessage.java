@@ -19,8 +19,10 @@ public class ErrorOrderBookMessage extends OrderBookMessage {
     public ErrorOrderBookMessage() { }
 
     public ErrorOrderBookMessage(String type, String message) {
-        this.type = type;
-        this.message = message;
+
+    	setType(type);
+        
+    	this.message = message;
     }
 
     public String getMessage() {

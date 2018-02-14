@@ -1,18 +1,18 @@
 package com.coinbase.exchange.api.marketdata;
 
-import org.joda.time.DateTime;
-
 import java.math.BigDecimal;
+
+import org.joda.time.DateTime;
 
 /**
  * Created by robevansuk on 12/03/2017.
  */
 public class Trade {
-    DateTime time;
-    Long trade_id;
-    BigDecimal price;
-    BigDecimal size;
-    String side;
+	private DateTime time;
+	private Long trade_id;
+	private BigDecimal price;
+	private BigDecimal size;
+	private String side;
 
     public Trade() {}
 

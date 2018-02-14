@@ -5,10 +5,10 @@ package com.coinbase.exchange.api.payments;
  */
 public class Limit {
 
-    AccountLimit[] buy;
-    AccountLimit[] instant_buy;
-    AccountLimit[] sell;
-    AccountLimit[] deposit;
+	private AccountLimit[] buy;
+	private AccountLimit[] instant_buy;
+	private AccountLimit[] sell;
+	private AccountLimit[] deposit;
 
     public Limit() {}
 

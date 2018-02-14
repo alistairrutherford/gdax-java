@@ -1,12 +1,11 @@
 package com.coinbase.exchange.api.marketdata;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
+import java.math.BigDecimal;
+import java.util.List;
+
 import org.springframework.util.CollectionUtils;
 
-import java.math.BigDecimal;
-import java.nio.charset.StandardCharsets;
-import java.util.Comparator;
-import java.util.List;
+import com.fasterxml.jackson.annotation.JsonCreator;
 
 /**
  * Created by robevansuk on 20/03/2017.

@@ -1,9 +1,10 @@
 package com.coinbase.exchange.api.reports;
 
-import com.coinbase.exchange.api.exchange.GdaxExchange;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
+
+import com.coinbase.exchange.api.exchange.GdaxExchange;
 
 /**
  * Created by robevansuk on 16/02/2017.
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ReportService {
 
-    private static final String REPORTS_ENDPOINT = "/reports";
+    public static final String REPORTS_ENDPOINT = "/reports";
 
     @Autowired
     GdaxExchange gdaxExchange;

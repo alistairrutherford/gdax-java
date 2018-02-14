@@ -7,9 +7,9 @@ import java.math.BigDecimal;
  */
 public class Transfer {
 
-    String type; // deposit/withdraw
-    BigDecimal amount;
-    String coinbase_account_id;
+	private String type; // deposit/withdraw
+	private BigDecimal amount;
+	private String coinbase_account_id;
 
     public Transfer() {}
 

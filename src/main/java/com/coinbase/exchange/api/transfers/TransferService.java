@@ -1,11 +1,12 @@
 package com.coinbase.exchange.api.transfers;
 
-import com.coinbase.exchange.api.exchange.GdaxExchange;
+import java.math.BigDecimal;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
+import com.coinbase.exchange.api.exchange.GdaxExchange;
 
 /**
  * This class is best used in conjunction with the coinbase library
@@ -16,10 +17,10 @@ import java.math.BigDecimal;
 @Component
 public class TransferService {
 
-    static final String TRANSFER_ENDPOINT = "/transfers";
+    public static final String TRANSFER_ENDPOINT = "/transfers";
 
     @Autowired
-    GdaxExchange gdaxExchange;
+    private GdaxExchange gdaxExchange;
 
     /**
      * TODO untested due to lack of a coinbaseaccountID to test with.

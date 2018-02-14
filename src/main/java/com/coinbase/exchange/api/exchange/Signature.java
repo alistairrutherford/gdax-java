@@ -1,15 +1,17 @@
 package com.coinbase.exchange.api.exchange;
 
-import com.coinbase.exchange.api.constants.GdaxConstants;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import java.security.InvalidKeyException;
+import java.util.Base64;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import javax.management.RuntimeErrorException;
-import java.security.InvalidKeyException;
-import java.util.Base64;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import com.coinbase.exchange.api.constants.GdaxConstants;
 
 /**
  * Created by robevansuk on 17/03/2017.
