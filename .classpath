@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry path="bin" kind="output"/>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/junit/junit/4.12/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.6/84ce6ccce38aec1e965adbf5095b8d1b92ffb480/jackson-datatype-jdk8-2.8.6-sources.jar" kind="lib" path="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.8.6/5e8c30655c393109c5fcb1716e9546891170abe7/jackson-datatype-jdk8-2.8.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.6/jackson-databind-2.8.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.6/jackson-core-2.8.6.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.6/8acbd4826b72e103ff79e201182dc98b3a2b47e9/jackson-annotations-2.8.6-sources.jar" kind="lib" path="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.6/9577018f9ce3636a2e1cb0a0c7fe915e5098ded5/jackson-annotations-2.8.6.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/c2c8923b5cc02e5ff9eb100fc718b582efb164e2/javax.websocket-api-1.1-sources.jar" kind="lib" path="C:/Users/rut19830/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.1/eeeb68631711256418dfbb47b11c731b6c8f6235/javax.websocket-api-1.1.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-test/4.3.5.RELEASE/spring-test-4.3.5.RELEASE.jar"/>
-	<classpathentry sourcepath="C:/Users/rut19830/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE-sources.jar" kind="lib" path="C:/Users/rut19830/.m2/repository/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
